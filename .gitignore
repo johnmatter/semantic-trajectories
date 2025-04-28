@@ -1,0 +1,10 @@
+.venv/
+*.swp
+examples/
+renders/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.mid

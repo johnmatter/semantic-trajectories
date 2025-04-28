@@ -1,0 +1,7 @@
+datasketch
+numpy
+scikit-learn
+umap-learn
+matplotlib
+mido
+python-rtmidi
