@@ -16,7 +16,9 @@ fn = "/Users/matter/Downloads/cobya-modern-variable-font-2023-11-27-05-16-13-utc
 
 @animation((width, height), tl=(20, 140/60))
 def scratch(f:Frame):
+
     left, right = f.a.r.divide(0.5, "W")
+    comp = P()
 
     l = (
         StSt(str(f.i%4+1), fn, 72, wght=0.7)
@@ -32,7 +34,6 @@ def scratch(f:Frame):
         .scaleToRect(right.inset(100))
     )
 
-    comp = P()
     comp += P(
         P( 
           P().rect(f.a.r).f(0),
